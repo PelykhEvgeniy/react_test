@@ -1,0 +1,52 @@
+.header{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu__wrapper{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.menu__list{
+    display: flex;
+    .list__item{
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    .list__link{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+    }
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__login{
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        background: transparent;
+        padding: 5px 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    &__signUp{
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        background: transparent;
+        padding: 5px 10px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
